@@ -2,4 +2,4 @@
 weather_api_key = "insert key here"
 
 # Google API Key
-g_key = "insrt key here"
+g_key = "insert key here"
