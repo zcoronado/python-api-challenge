@@ -14,6 +14,7 @@ The first was to create a series of scatter plots to showcase the following rela
 * Temperature (F) vs. Latitude: 
  <br>This code is analizing how hot the temperature gets along all latitudes of the selected cities. We can see that the hottest temperatures happen between -20 and 40 latitude which would include the contries of Africa and Europe.</br>
 
+
 * Humidity (%) vs. Latitude: 
   <br>This code is analizing how humid gets along all latitudes of the selected cities. We do not see a real relationship represented here.</br>
 
@@ -57,7 +58,7 @@ Now I used weather data to plan future vacations using jupyter-gmaps and the Goo
 
 * **Note:** if you having trouble displaying the maps, try running `jupyter nbextension enable --py gmaps` in your environment and retry.
 
-* Inarrowed down the DataFrame to find our ideal weather condition. For example:
+* I narrowed down the DataFrame to find our ideal weather condition. For example:
 
   * A max temperature lower than 80 degrees but higher than 70.
 
@@ -65,10 +66,6 @@ Now I used weather data to plan future vacations using jupyter-gmaps and the Goo
 
   * Zero cloudiness.
 
-  * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+Used Google Places API to find the first hotel for each city located within 5000 meters of our coordinates.
 
-* Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
-
-* Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
-
-  ![hotel map](Images/hotel_map.png)
+Plotted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
